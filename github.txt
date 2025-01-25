@@ -1,0 +1,25 @@
+public olarak milyonlarca geliştiriciye sahip
+açık kaynak olduğu için tanımadığınız kişilerle çalışma imkanı
+pwd cd push gibi komutlar kullandık ama kafam baya karıştı videonun ortasındayım 
+
+oluşturduğum repoyu git clone https://github.com/Canzgn/genesis.git yaparak clone ettim
+
+
+cd komutu ile klasör içine gir çık yapıyoruz.
+git status dosya içeriğinde yapılan değişiklikleri görmemizi sağlıyor.
+git add index.html
+git commit -m "" yaparak dosyayı githuba ekledik galiba 
+sonra da git push yapıp web üzerinden gözükmesini sağladık öyle anladım.
+git pull origin main ile site üzerinde yapılan değişiklikleri locale kaydedebildim.
+
+Remote da olan değişikliği almadan push ile güncelleme yapılması mümkün değil.
+
+git fetch+ git merge = git pull
+git commit -am komutu add ve commiti aynı anda yapmayı sağlar.
+
+hem localde hem web de yapılan değşiklikler de git pull edildikten sonra git status +git add+git commit -m + git push komutları yerine getirilirse aynı osyadaki değişikliği tek bir şekilde web üzerinde görme şansına sahip oluruz.
+
+işbirliği oluşturma şeklini öğrendim
+
+forking projeyi repo alanına kopyalıyor.
+kopyalanan spoon-knifei git clone https://github.com/Canzgn/Spoon-Knife.git komutuyla locale de eklemiş oldum.
